@@ -69,7 +69,9 @@ Alignment is done using these classes:
 * "sb-align-y-bottom"(sb-ayb)
 
 In order to have the image flow under your content the list element must have the sb-ignore-flow-frame(sb-iff) class applied to it as well as its position, then its content needs to be put in a div with the class sb-ignore-flow-content(sb-ifc).
-It is worth noting that when using the ignore flow classes your content is completely removed from the flow of the page. As such if you use a top left corner image ignoring flow thenit will align to the top left corner of the content. This can be remedied by adding an extra list item in the same location with a class forcing a certain minimum width and height.
+
+It is worth noting that when using the ignore flow classes your content is completely removed from the flow of the page. As such if you use a top left corner image ignoring flow thenit will align to the top left corner of the content.
+This can be remedied by adding an extra list item in the same location with a class forcing a certain minimum width and height.
 
 **Example**
 ```
