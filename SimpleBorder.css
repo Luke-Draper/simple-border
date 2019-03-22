@@ -1,3 +1,7 @@
+/*
+A simple border system made by Luke Draper.
+Source obtainable at https://github.com/Luke-Draper/simple-border
+*/
 ul.sb-frame,
 ul.simple-border-frame {
   list-style-type: none;
